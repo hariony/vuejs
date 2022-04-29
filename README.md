@@ -1,4 +1,4 @@
-#VUETIFY JS - AXIOS
+# VUETIFY JS - AXIOS
 
 ## Project setup
 ```
