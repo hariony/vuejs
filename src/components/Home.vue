@@ -9,7 +9,7 @@
   >
     <v-layout row wrap align-center>
       <v-flex>
-        <v-card hover class="rounded-xl pa-0 ma-5" style="height: 100%">
+        <v-card hover class="pa-0 ma-5" style="height: 100%">
           <v-row class="text-center pa-0 ma-0">
             <v-col
               cols="12"
@@ -58,13 +58,10 @@
             </v-col>
             <v-col cols="12" md="6" lg="7" class="pa-0 ma-0">
               <v-card
-                class="pa-5 ma-0 rounded-right-card"
+                class="pa-5 ma-0"
                 color="blue"
-                v-bind:img ="datas.cover"
-                style="
-                  height: 500px;
-                  background-size: cover;
-                "
+                v-bind:img="datas.cover"
+                style="height: 500px; background-size: cover"
               >
               </v-card>
             </v-col>
